@@ -1,0 +1,142 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "login": "admin",
+            "password": "adminpassword",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "login": "seller1",
+            "password": "sellerpassword",
+            "role": "seller"
+        },
+        {
+            "id": 3,
+            "login": "meow",
+            "password": "meow",
+            "role": "seller"
+        },
+        {
+            "id": 4,
+            "login": "meowmeow",
+            "password": "meowmeow",
+            "role": "seller"
+        }
+    ],
+    "sellers": [
+        {
+            "id": 1,
+            "first_name": "Иван",
+            "last_name": "Иванов",
+            "phone": "+1234567890",
+            "user_id": 2
+        },
+        {
+            "id": 2,
+            "first_name": "костя",
+            "last_name": "степанов",
+            "phone": "87567",
+            "user_id": 3
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "name": "Картина",
+            "description": "Прекрасная картина маслом",
+            "starting_price": 10000.0,
+            "photo": "img/img1.jpeg",
+            "seller_id": 1
+        },
+        {
+            "id": 2,
+            "name": "Картина2",
+            "description": "Прекрасная картина маслом2",
+            "starting_price": 10000.0,
+            "photo": "img/img2.jpg",
+            "seller_id": 1
+        },
+        {
+            "id": 3,
+            "name": "картина3",
+            "description": "лютая имба",
+            "starting_price": 3,
+            "photo": "img/img3.jpg",
+            "seller_id": 1
+        },
+        {
+            "id": 4,
+            "name": "картина4",
+            "description": "мяу мяу мяу",
+            "starting_price": 89.0,
+            "photo": "img/img1.jpeg",
+            "seller_id": 1
+        },
+        {
+            "id": 5,
+            "name": "костяидинах",
+            "description": "мяу мяу",
+            "starting_price": 500.0,
+            "photo": "img/img3.jpg",
+            "seller_id": 3
+        },
+        {
+            "id": 6,
+            "name": "тест2",
+            "description": "тест2",
+            "starting_price": 5656.0,
+            "photo": "img/img3.jpg",
+            "seller_id": 2
+        },
+        {
+            "id": 7,
+            "name": "fgrtg",
+            "description": "rtgrtg",
+            "starting_price": 546.0,
+            "photo": "img/img2.jpg",
+            "seller_id": 3
+        },
+        {
+            "id": 8,
+            "name": "trtyy",
+            "description": "tyrtyr",
+            "starting_price": 75.0,
+            "photo": "img/img1.jpeg",
+            "seller_id": 3
+        },
+        {
+            "id": 9,
+            "name": "1",
+            "description": "1",
+            "starting_price": 1.0,
+            "photo": "img/NCCCeebUgkc.jpg",
+            "seller_id": 2
+        },
+        {
+            "id": 10,
+            "name": "1234",
+            "description": "1234",
+            "starting_price": 1234.0,
+            "photo": "img/p2lYDtyAvz8.jpg",
+            "seller_id": 2
+        },
+        {
+            "id": 11,
+            "name": "2",
+            "description": "2",
+            "starting_price": 2.0,
+            "photo": "img/8dbe1e4196e96cfbbf101bda8dd1670b.jpg",
+            "seller_id": 2
+        },
+        {
+            "id": 12,
+            "name": "1",
+            "description": "2",
+            "starting_price": 3.0,
+            "photo": "./img\\640e2115aa2bcd70c817278f150d4901.jpg",
+            "seller_id": 2
+        }
+    ]
+}
